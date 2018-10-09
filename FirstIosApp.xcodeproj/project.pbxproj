@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		686837D5216CF5D4000809A4 /* ColorTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686837D4216CF5D4000809A4 /* ColorTool.swift */; };
 		68B94E71216CE8B9003B3C40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B94E70216CE8B9003B3C40 /* AppDelegate.swift */; };
 		68B94E73216CE8B9003B3C40 /* ColorChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B94E72216CE8B9003B3C40 /* ColorChangeViewController.swift */; };
 		68B94E76216CE8B9003B3C40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B94E74216CE8B9003B3C40 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		686837D4216CF5D4000809A4 /* ColorTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTool.swift; sourceTree = "<group>"; };
 		68B94E6D216CE8B9003B3C40 /* FirstIosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstIosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B94E70216CE8B9003B3C40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68B94E72216CE8B9003B3C40 /* ColorChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangeViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,14 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		686837D3216CF560000809A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				686837D4216CF5D4000809A4 /* ColorTool.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		68B94E64216CE8B9003B3C40 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +134,7 @@
 		68B94E6F216CE8B9003B3C40 /* FirstIosApp */ = {
 			isa = PBXGroup;
 			children = (
+				686837D3216CF560000809A4 /* Model */,
 				686837D0216CECCB000809A4 /* Resources */,
 				686837D2216CF0BA000809A4 /* Controller */,
 				686837D1216CF089000809A4 /* View */,
@@ -282,6 +293,7 @@
 			files = (
 				68B94E73216CE8B9003B3C40 /* ColorChangeViewController.swift in Sources */,
 				68B94E71216CE8B9003B3C40 /* AppDelegate.swift in Sources */,
+				686837D5216CF5D4000809A4 /* ColorTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
